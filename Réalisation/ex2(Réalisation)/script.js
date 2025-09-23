@@ -14,12 +14,12 @@ const compétences =
 
   let trueCount = 0;
   let falseCount = 0;
-for (let i = 0; i < compétences.length; i++) {// i index //majmo3 de tableau
+for (let i = 0; i < compétences.length; i++) {// i index //majmo3 de tableau // for hiya boucle
     let done = prompt("entré le code de la compétence" + compétences[i].title);//promt(belssa dyal utulisateur))
-    if (done == compétences[i].code) { // bache dakhl reponse dyal utulisateur
+    if (done == compétences[i].code) { // bache dakhl reponse dyal utulisateur // boucle fe wst condtion
         trueCount++;
         console.log("GOOD JOB IS TRUE👌 ")
-        console.log("resultat : "+trueCount)
+        console.log("score🥶 : "+trueCount)
     } else {
         falseCount++;
         console.log("WRONG ANSWER IS FALSE👎 ")}
