@@ -19,6 +19,7 @@ for (let i = 0; i < compétences.length; i++) {// i index //majmo3 de tableau
     if (done == compétences[i].code) { // bache dakhl reponse dyal utulisateur
         trueCount++;
         console.log("GOOD JOB IS TRUE👌 ")
+        console.log("resultat : "+trueCount)
     } else {
         falseCount++;
         console.log("WRONG ANSWER IS FALSE👎 ")}
@@ -29,5 +30,7 @@ for (let i = 0; i < compétences.length; i++) {// i index //majmo3 de tableau
             console.log("CONGRATULATION YOU WIN🏆" )
             break
     }
+            console.log("resultat : "+trueCount)
+
  }}
 afficherCompétences();
